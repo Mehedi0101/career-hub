@@ -23,7 +23,7 @@ const Navbar = () => {
                     <Link to="/" className="text-2xl xl:text-3xl font-extrabold text-dark1">CareerHub</Link>
                 </div>
 
-                <div className="flex gap-5 list-none lg:w-1/4 justify-between lg:text-sm xl:text-base">
+                <div className="flex gap-5 list-none lg:w-1/4 justify-between text-sm xl:text-base">
                     <li><NavLink to="/statistics" className="text-dark3 font-medium">Statistics</NavLink></li>
                     <li><NavLink to="/applied-jobs" className="text-dark3 font-medium">Applied Jobs</NavLink></li>
                     <li><NavLink to="/blog" className="text-dark3 font-medium">Blog</NavLink></li>
