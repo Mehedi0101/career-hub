@@ -11,6 +11,10 @@ const Navbar = () => {
         setShowMenu(!showMenu);
     }
 
+    const handleClick = () => {
+        setShowMenu(false);
+    }
+
     return (
         <nav>
 
@@ -36,9 +40,9 @@ const Navbar = () => {
                     <Link to="/" className="text-2xl font-extrabold text-dark1">CareerHub</Link>
                 </div>
                 <div className={`fixed top-16 p-8 bg-white list-none border-2 border-primary2 space-y-3 rounded-lg ${showMenu || 'hidden'}`}>
-                    <li><NavLink to="/statistics" className="text-dark3 font-medium">Statistics</NavLink></li>
-                    <li><NavLink to="/applied-jobs" className="text-dark3 font-medium">Applied Jobs</NavLink></li>
-                    <li><NavLink to="/blog" className="text-dark3 font-medium">Blog</NavLink></li>
+                    <li><NavLink onClick={handleClick} to="/statistics" className="text-dark3 font-medium">Statistics</NavLink></li>
+                    <li><NavLink onClick={handleClick} to="/applied-jobs" className="text-dark3 font-medium">Applied Jobs</NavLink></li>
+                    <li><NavLink onClick={handleClick} to="/blog" className="text-dark3 font-medium">Blog</NavLink></li>
                     <button className="px-4 py-2 text-sm bg-gradient-to-r from-primary1 to-primary2 text-white font-extrabold rounded-lg active:scale-95 transition-transform">Start Applying</button>
                 </div>
             </div>
