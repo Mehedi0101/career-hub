@@ -6,7 +6,9 @@ const RootLayout = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className="min-h-[70vh]">
+                <Outlet></Outlet>
+            </div>
             <div className="bg-dark1">
                 <Footer></Footer>
             </div>
