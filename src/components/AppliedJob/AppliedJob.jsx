@@ -10,14 +10,14 @@ const AppliedJob = () => {
     const handleShowDetails = () => navigate(`/featured-jobs/${job_id}`);
 
     return (
-        <div className="flex items-center mb-10">
-            <div className="mr-20">
+        <div className="flex flex-col md:flex-row items-center mb-10">
+            <div className="mr-0 md:mr-20">
                 <img src={company_logo} alt="" />
             </div>
             <div>
                 <h3 className="text-dark2 text-2xl font-extrabold mb-1">{designation}</h3>
-                <h4 className="text-dark3 font-semibold mb-2">{company_name}</h4>
-                <div className="flex gap-3 mb-3 justify-center lg:justify-normal">
+                <h4 className="text-dark3 font-semibold mb-2 text-center md:text-left">{company_name}</h4>
+                <div className="flex gap-3 mb-3">
                     {
                         type.map((t, idx) => <div className="px-5 py-2 border border-primary2 text-primary2 font-extrabold rounded" key={idx}>{t}</div>)
                     }
@@ -33,7 +33,7 @@ const AppliedJob = () => {
                     </div>
                 </div>
             </div>
-            <button onClick={handleShowDetails} className="ml-auto px-5 py-2 lg:text-sm xl:text-base bg-gradient-to-r from-primary1 to-primary2 text-white font-extrabold rounded-lg active:scale-95 transition-transform">View Details</button>
+            <button onClick={handleShowDetails} className="mx-auto md:mx-0 md:ml-auto px-5 py-2 lg:text-sm xl:text-base bg-gradient-to-r from-primary1 to-primary2 text-white font-extrabold rounded-lg active:scale-95 transition-transform">View Details</button>
         </div>
     );
 };
