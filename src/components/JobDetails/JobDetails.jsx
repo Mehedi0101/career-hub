@@ -4,6 +4,8 @@ import { AiOutlineDollarCircle } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { MdOutlineLocationOn } from "react-icons/md";
+import { getDataFromLS, setDataToLS } from "../../utils/localStorage";
+import { useState } from "react";
 
 const JobDetails = () => {
 
@@ -14,8 +16,16 @@ const JobDetails = () => {
 
     const { job_id, job_description, job_responsibility, educational_requirements, required_experience, salary_range, designation, phone, email, full_address } = job;
 
-    console.log(job);
+    const [localData, setLocalData] = useState(getDataFromLS());
+    
 
+    const handleApply = () => {
+        setDataToLS(job_id);
+        setLocalData(getDataFromLS());
+    }
+
+    console.log(localData);
+    
     return (
         <div className="w-11/12 mx-auto mb-20">
             <h2 className="text-2xl md:text-3xl font-extrabold text-center mt-10 md:mt-20 mb-5 md:mb-10">Job Details</h2>
@@ -50,7 +60,7 @@ const JobDetails = () => {
                     <div className="mt-2 text-sm lg:text-base">
                         <p><span className="text-dark2 font-extrabold items-center gap-2 w-1/2"><MdOutlineLocationOn className="text-primary2 text-xl inline -mt-1 mr-2" />Address : <span className="inline text-dark3 font-medium">{full_address}</span></span></p>
                     </div>
-                    <button className="w-full mt-10 px-5 py-3 lg:text-sm xl:text-base bg-gradient-to-r from-primary1 to-primary2 text-white font-extrabold rounded-lg active:scale-95 transition-transform">Apply Now</button>
+                    <button onClick={handleApply} className="w-full mt-10 px-5 py-3 lg:text-sm xl:text-base bg-gradient-to-r from-primary1 to-primary2 text-white font-extrabold rounded-lg active:scale-95 transition-transform">{localData.includes(job_id) ? 'Cancel Application' : 'Apply Now'}</button>
                 </div>
             </div>
         </div>
