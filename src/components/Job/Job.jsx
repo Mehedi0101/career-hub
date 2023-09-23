@@ -2,11 +2,16 @@ import { useContext } from "react";
 import { IndividualJobContext } from "../Jobs/Jobs";
 import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineDollarCircle } from "react-icons/ai"
+import { useNavigate } from "react-router-dom";
 
 
 const Job = () => {
     const jobDetails = useContext(IndividualJobContext);
+    const navigate = useNavigate();
     const {job_id, company_logo, designation, company_name, type, location, salary_range} = jobDetails;
+
+    const handleShowDetails = () => navigate(`/featured-jobs/${job_id}`);
+
     return (
         <div className="text-center lg:text-left">
             <div className="mb-2 h-[50px] flex items-center">
@@ -29,7 +34,7 @@ const Job = () => {
                     <p>{salary_range}</p>
                 </div>
             </div>
-            <button className="px-5 py-2 lg:text-sm xl:text-base bg-gradient-to-r from-primary1 to-primary2 text-white font-extrabold rounded-lg active:scale-95 transition-transform">View Details</button>
+            <button onClick={handleShowDetails} className="px-5 py-2 lg:text-sm xl:text-base bg-gradient-to-r from-primary1 to-primary2 text-white font-extrabold rounded-lg active:scale-95 transition-transform">View Details</button>
         </div>
     );
 };
