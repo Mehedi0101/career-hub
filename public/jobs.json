@@ -1,0 +1,192 @@
+[
+    {
+        "job-id": 101,
+        "company_logo": "https://i.ibb.co/kQRwSFF/Google-logo-1-1.png",
+        "designation": "Software Engineer",
+        "company_name": "Google",
+        "type": "Full Time",
+        "location": {
+            "city": "Mountain View",
+            "country": "USA"
+        },
+        "salary_range": "$120,000 - $160,000",
+        "job_description": "Join Google, a global technology leader, as a Software Engineer. We're looking for passionate individuals who want to shape the future of the internet and technology.",
+        "job_responsibility": "As a Software Engineer at Google, you will design and develop innovative software solutions, collaborate with cross-functional teams, and contribute to cutting-edge projects.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "required_experience": 3,
+        "phone": "+1 (123) 456-7890",
+        "email": "careers@google.com",
+        "full_address": "1600 Amphitheatre Parkway, Mountain View, USA"
+    },
+    {
+        "job-id": 102,
+        "company_logo": "https://i.ibb.co/0fMX5jt/Facebook-Logo-Meaning-2.jpg",
+        "designation": "Product Manager",
+        "company_name": "Facebook",
+        "type": "Full Time",
+        "location": {
+            "city": "Menlo Park",
+            "country": "USA"
+        },
+        "salary_range": "$130,000 - $170,000",
+        "job_description": "Facebook is seeking a talented Product Manager to join our mission to connect the world. Join us in Menlo Park and make an impact on billions of lives.",
+        "job_responsibility": "As a Product Manager at Facebook, you will lead product development, define strategies, and work closely with engineering and design teams to create world-class products.",
+        "educational_requirements": "Bachelor's degree in Business or related field",
+        "required_experience": 4,
+        "phone": "+1 (555) 789-1234",
+        "email": "jobs@facebook.com",
+        "full_address": "1 Hacker Way, Menlo Park, USA"
+    },
+    {
+        "job-id": 103,
+        "company_logo": "https://i.ibb.co/dfdFrgw/Logos-Readability-Netflix-logo-1-1.png",
+        "designation": "Content Producer",
+        "company_name": "Netflix",
+        "type": "Full Time",
+        "location": {
+            "city": "Los Gatos",
+            "country": "USA"
+        },
+        "salary_range": "$90,000 - $120,000",
+        "job_description": "Netflix, the world's leading streaming entertainment service, is looking for a Content Producer to create amazing original content. Join us in Los Gatos and be part of the future of entertainment.",
+        "job_responsibility": "As a Content Producer at Netflix, you will oversee the production of original content, manage budgets, and collaborate with creative teams to deliver top-quality shows and movies.",
+        "educational_requirements": "Bachelor's degree in Film or related field",
+        "required_experience": 5,
+        "phone": "+1 (408) 123-4567",
+        "email": "careers@netflix.com",
+        "full_address": "100 Winchester Circle, Los Gatos, USA"
+    },
+    {
+        "job-id": 104,
+        "company_logo": "https://i.ibb.co/2txm15B/Amazon-Logo-1-1.png",
+        "designation": "Warehouse Supervisor",
+        "company_name": "Amazon",
+        "type": "Full Time",
+        "location": {
+            "city": "Seattle",
+            "country": "USA"
+        },
+        "salary_range": "$50,000 - $70,000",
+        "job_description": "Amazon, the world's largest online retailer, is hiring a Warehouse Supervisor in Seattle. Join us and play a key role in our efficient and fast-paced fulfillment centers.",
+        "job_responsibility": "As a Warehouse Supervisor at Amazon, you will lead a team of associates, ensure smooth operations, and drive process improvements to meet customer demand.",
+        "educational_requirements": "High school diploma or equivalent",
+        "required_experience": 2,
+        "phone": "+1 (206) 555-6789",
+        "email": "jobs@amazon.com",
+        "full_address": "410 Terry Ave N, Seattle, USA"
+    },
+    {
+        "job-id": 105,
+        "company_logo": "https://i.ibb.co/XbMcWX4/microsoft-1.jpg",
+        "designation": "Software Development Engineer",
+        "company_name": "Microsoft",
+        "type": "Full Time",
+        "location": {
+            "city": "Redmond",
+            "country": "USA"
+        },
+        "salary_range": "$110,000 - $150,000",
+        "job_description": "Microsoft is seeking a Software Development Engineer to join our innovative team in Redmond. If you're passionate about technology and creating impact, apply now.",
+        "job_responsibility": "As a Software Development Engineer at Microsoft, you will design, develop, and test software solutions, collaborate with product teams, and drive excellence in software engineering.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "required_experience": 3,
+        "phone": "+1 (425) 123-7890",
+        "email": "careers@microsoft.com",
+        "full_address": "1 Microsoft Way, Redmond, USA"
+    },
+    {
+        "job-id": 106,
+        "company_logo": "https://i.ibb.co/w4M6RcP/apple-1.png",
+        "designation": "iOS Developer",
+        "company_name": "Apple",
+        "type": "Full Time",
+        "location": {
+            "city": "Cupertino",
+            "country": "USA"
+        },
+        "salary_range": "$120,000 - $160,000",
+        "job_description": "Join Apple, a world-renowned tech company, as an iOS Developer. Be part of the team that designs and develops groundbreaking mobile experiences.",
+        "job_responsibility": "As an iOS Developer at Apple, you will work on cutting-edge iOS applications, collaborate with cross-functional teams, and ensure the highest quality user experiences.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "required_experience": 4,
+        "phone": "+1 (408) 555-2345",
+        "email": "jobs@apple.com",
+        "full_address": "1 Infinite Loop, Cupertino, USA"
+    },
+    {
+        "job-id": 107,
+        "company_logo": "https://i.ibb.co/cQTBm08/tesla-1-1.png",
+        "designation": "Electrical Engineer",
+        "company_name": "Tesla",
+        "type": "Full Time",
+        "location": {
+            "city": "Palo Alto",
+            "country": "USA"
+        },
+        "salary_range": "$100,000 - $140,000",
+        "job_description": "Tesla, a leader in electric vehicles and sustainable energy, is looking for an Electrical Engineer to join our team in Palo Alto. Help us accelerate the world's transition to sustainable energy.",
+        "job_responsibility": "As an Electrical Engineer at Tesla, you will design and develop electrical systems, work on cutting-edge vehicle technologies, and contribute to a sustainable future.",
+        "educational_requirements": "Bachelor's degree in Electrical Engineering or related field",
+        "required_experience": 3,
+        "phone": "+1 (650) 123-4567",
+        "email": "careers@tesla.com",
+        "full_address": "3500 Deer Creek Road, Palo Alto, USA"
+    },
+    {
+        "job-id": 108,
+        "company_logo": "https://i.ibb.co/SBDmZFP/spotify-logo-freelogovectors-net-1-1.png",
+        "designation": "Music Curator",
+        "company_name": "Spotify",
+        "type": "Full Time",
+        "location": {
+            "city": "Stockholm",
+            "country": "Sweden"
+        },
+        "salary_range": "€50,000 - €70,000",
+        "job_description": "Spotify, the world's leading music streaming service, is hiring a Music Curator in Stockholm. Join us in shaping the future of music discovery and curation.",
+        "job_responsibility": "As a Music Curator at Spotify, you will curate playlists, discover new music, and help users discover the perfect soundtrack for every moment.",
+        "educational_requirements": "Bachelor's degree in Music or related field",
+        "required_experience": 2,
+        "phone": "+46 8 123 4567",
+        "email": "jobs@spotify.com",
+        "full_address": "Birger Jarlsgatan 61, Stockholm, Sweden"
+    },
+    {
+        "job-id": 109,
+        "company_logo": "https://i.ibb.co/JxGz7Z6/airbnb-1-1.png",
+        "designation": "Hospitality Manager",
+        "company_name": "Airbnb",
+        "type": "Full Time",
+        "location": {
+            "city": "San Francisco",
+            "country": "USA"
+        },
+        "salary_range": "$80,000 - $110,000",
+        "job_description": "Join Airbnb and be part of the world's largest community-driven hospitality company. We're looking for a Hospitality Manager to provide exceptional experiences for our guests.",
+        "job_responsibility": "As a Hospitality Manager at Airbnb, you will manage guest interactions, ensure property quality, and support hosts in creating memorable stays for travelers.",
+        "educational_requirements": "Bachelor's degree in Hospitality or related field",
+        "required_experience": 3,
+        "phone": "+1 (415) 555-7890",
+        "email": "careers@airbnb.com",
+        "full_address": "888 Brannan Street, San Francisco, USA"
+    },
+    {
+        "job-id": 110,
+        "company_logo": "https://i.ibb.co/56n9qgc/uber-transparent-png-1-1.jpg",
+        "designation": "Driver Operations Manager",
+        "company_name": "Uber",
+        "type": "Full Time",
+        "location": {
+            "city": "San Francisco",
+            "country": "USA"
+        },
+        "salary_range": "$90,000 - $120,000",
+        "job_description": "Uber, a leading ride-sharing and transportation company, is seeking a Driver Operations Manager in San Francisco. Join us in shaping the future of mobility.",
+        "job_responsibility": "As a Driver Operations Manager at Uber, you will manage driver-partner relations, optimize driver performance, and ensure a seamless experience for riders and drivers.",
+        "educational_requirements": "Bachelor's degree in Business or related field",
+        "required_experience": 4,
+        "phone": "+1 (415) 123-4567",
+        "email": "jobs@uber.com",
+        "full_address": "1455 Market Street, San Francisco, USA"
+    }
+]
