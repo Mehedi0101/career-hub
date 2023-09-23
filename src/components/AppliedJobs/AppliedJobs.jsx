@@ -25,6 +25,7 @@ const AppliedJobs = () => {
         } else if(option === 'Remote'){
             setDisplayJobs(appliedJobs.filter(job => job.type.includes('Remote')));
         }
+        console.log(option);
     }
 
 
@@ -32,13 +33,13 @@ const AppliedJobs = () => {
         <div className="w-11/12 mx-auto mb-20">
             <h2 className="text-2xl md:text-3xl font-extrabold text-center mt-10 md:mt-20 mb-5 md:mb-10">Applied Jobs</h2>
 
-            <select defaultValue={`Filter By`} className="text-right block ml-auto outline-none border-none bg-transparent text-dark2 font-semibold">
+            <select defaultValue={`Filter By`} onChange={handleDropdown} className="block ml-auto outline-none border-none bg-transparent text-dark2 font-semibold">
                 <option disabled className="hidden">Filter By</option>
-                <option onClick={handleDropdown}>All</option>
-                <option onClick={handleDropdown}>Full Time</option>
-                <option onClick={handleDropdown}>Part Time</option>
-                <option onClick={handleDropdown}>Onsite</option>
-                <option onClick={handleDropdown}>Remote</option>
+                <option>All</option>
+                <option>Full Time</option>
+                <option>Part Time</option>
+                <option>Onsite</option>
+                <option>Remote</option>
             </select>
 
             {
