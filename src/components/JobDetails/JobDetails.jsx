@@ -24,8 +24,6 @@ const JobDetails = () => {
         setLocalData(getDataFromLS());
     }
 
-    console.log(localData);
-    
     return (
         <div className="w-11/12 mx-auto mb-20">
             <h2 className="text-2xl md:text-3xl font-extrabold text-center mt-10 md:mt-20 mb-5 md:mb-10">Job Details</h2>

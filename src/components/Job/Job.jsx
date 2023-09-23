@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { IndividualJobContext } from "../Jobs/Jobs";
 import { CiLocationOn } from "react-icons/ci";
-import { AiOutlineDollarCircle } from "react-icons/ai"
+import { AiOutlineDollarCircle } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 
 
